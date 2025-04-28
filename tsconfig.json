@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", // Utilise CommonJS pour la compatibilité Node.js
+    "target": "ESNext", // Version JavaScript cible
+    "outDir": "./dist", // Dossier de sortie des fichiers compilés
+    "rootDir": ".", // Répertoire des fichiers sources
+    "strict": true, // Active le mode strict de TypeScript
+    "esModuleInterop": true, // Facilite l'import des modules CommonJS
+    "forceConsistentCasingInFileNames": true, // Sensibilité à la casse pour les chemins de fichier
+    "skipLibCheck": true, // Ignore les vérifications dans les fichiers de déclaration
+    "noImplicitAny": true, // Interdit les types implicites "any"
+    "moduleResolution": "node"
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules", "dist"] // Inclut tous les fichiers TypeScript dans ./src
+}

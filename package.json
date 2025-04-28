@@ -1,0 +1,25 @@
+{
+  "name": "mon-projet-ts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Serveur Node.js avec TypeScript pour interagir avec Airtable",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server/server.js && npm start",
+    "build": "tsc",
+    "dev": ""
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "daisyui": "^4.12.23",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}
