@@ -101,7 +101,7 @@ app.get("/api", async (req: Request, res: Response): Promise<void> => {
 });
 
 // Écoute sur le port
-const port = parseInt(process.env.PORT || "5000", 10); // Changé à 5000 pour éviter conflit
+const port = parseInt(process.env.port || "5000", 10); // Changé à 5000 pour éviter conflit
 app.listen(port, "0.0.0.0", () => {
   console.log(`Serveur en cours d'exécution sur le port ${port}`);
 });
